@@ -40,6 +40,37 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
 
+  nav__link: {
+    // height: "100%",
+    textDecoration: "none",
+    textTransform: "uppercase",
+
+    color: "#fff",
+    padding: "3px 5px",
+
+    display: "flex",
+    alignItems: "center",
+    [theme.breakpoints.down("md")]: {
+      // width: "100%",
+      padding: "10px",
+      textAlign: "center",
+      display: "table",
+
+      "&:hover": {
+        color: "#4b59f7",
+        transition: "all 0.3s ease",
+      },
+    },
+  },
+
+  activeClass: {
+    borderBottom: "5px solid #4b59f7",
+    [theme.breakpoints.down("md")]: {
+      borderBottom: "none",
+      fontSize: "25px",
+    },
+  },
+
   footer__logo: {
     height: "50%",
     width: "200px", //edit here cant trust

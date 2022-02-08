@@ -35,7 +35,39 @@ const Footer = () => {
             <Typography variant="h6" className={classes.subTitle}>
               مواعيد العمل من 7 صباحآ الي 10 مساء علي طوال الاسبوع
             </Typography>
+            <ul className={classes.nav__menu}>
+              <li className={classes.nav__item}>
+                <NavLink
+                  to="/products"
+                  className={classes.nav__link}
+                  activeClassName={classes.activeClass}
+                >
+                  المنتجات
+                </NavLink>
+              </li>
+
+              <li className={classes.nav__item}>
+                <NavLink
+                  to="/blog"
+                  className={classes.nav__link}
+                  activeClassName={classes.activeClass}
+                >
+                  أخبار
+                </NavLink>
+              </li>
+
+              <li className={classes.nav__item}>
+                <NavLink
+                  to="/membership"
+                  className={classes.nav__link}
+                  activeClassName={classes.activeClass}
+                >
+                  أعضاء
+                </NavLink>
+              </li>
+            </ul>
           </div>
+
           <NavLink to="/" className={classes.footer__logo}>
             <img
               src={logoImg}
