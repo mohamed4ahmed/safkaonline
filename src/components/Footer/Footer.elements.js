@@ -25,7 +25,7 @@ export const useStyles = makeStyles((theme) => ({
   },
 
   info: {
-    background: "rgb(223, 216, 216)", //edit here
+    background: "#7e7a7a", //edit here
   },
 
   subTitle: {
@@ -63,28 +63,6 @@ export const useStyles = makeStyles((theme) => ({
         color: "#4b59f7",
         transition: "all 0.3s ease",
       },
-    },
-  },
-
-  nav__menu: {
-    display: "flex",
-    alignItems: "center",
-    textAlign: "center",
-    zIndex: 999,
-
-    [theme.breakpoints.down("md")]: {
-      // width: "100%",
-      // height: "calc(100vh - 80px)",
-      background: "#191919",
-      display: "flex",
-      flexDirection: "column",
-
-      position: "absolute",
-      // top: "80px",
-
-      opacity: 1,
-
-      transition: "all 0.5s ease",
     },
   },
 

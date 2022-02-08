@@ -5,6 +5,7 @@ import logoImg from "../../assets/img/logo-web-white.png";
 import { NavLink } from "react-router-dom";
 import { FaFacebook, FaInstagram, FaWhatsapp, FaPhone } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
+import { SiGooglemaps } from "react-icons/si";
 
 const Footer = () => {
   const classes = useStyles();
@@ -15,7 +16,14 @@ const Footer = () => {
         <div className={classes.footer__wrap}>
           <div className={classes.info}>
             <Typography variant="h6" className={classes.subTitle}>
-              العنوان : شارع طه الطاوي ,المحلة الكبري , الغربية , مصر
+              العنوان :
+              <a
+                href="https://www.google.com/maps/place/safka/@31.0914078,30.0063286,9z/data=!4m9!1m2!2m1!1ssafka!3m5!1s0x14f7a3837569d0af:0x5ea168e21e0b6dab!8m2!3d30.9738629!4d31.1822901!15sCgVzYWZrYZIBDmNsb3RoaW5nX3N0b3Jl"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SiGooglemaps /> Location in Google maps
+              </a>
             </Typography>
 
             <Typography variant="h6" className={classes.subTitle}>
@@ -33,11 +41,9 @@ const Footer = () => {
             </Typography>
 
             <Typography variant="h6" className={classes.subTitle}>
-              <p className="addes">
-                {" "}
-                مواعيد العمل من 7 صباحآ الي 10 مساء علي طوال الاسبوع
-              </p>
+              مواعيد العمل : من 7 صباحآ الي 10 مساء علي طوال الاسبوع
             </Typography>
+
             <ul className={classes.nav__menu}>
               <li className={classes.nav__item}>
                 <NavLink
