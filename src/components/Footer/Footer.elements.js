@@ -25,12 +25,13 @@ export const useStyles = makeStyles((theme) => ({
   },
 
   info: {
-    background: "rgba(247, 248, 248, 0.8)",
+    background: "rgba(136, 174, 223)", //edit here
   },
 
   subTitle: {
     color: "white",
     padding: "10px 0",
+
     [theme.breakpoints.down("md")]: {
       padding: "5px 0",
     },
@@ -39,13 +40,15 @@ export const useStyles = makeStyles((theme) => ({
       cursor: "pointer",
     },
   },
-
+  addes: {
+    color: "rgba(247, 248,248 ,0.8 )",
+  },
   nav__link: {
     // height: "100%",
     textDecoration: "none",
     textTransform: "uppercase",
 
-    color: "#fff",
+    color: "#1f263a",
     padding: "3px 5px",
 
     display: "flex",
