@@ -15,7 +15,6 @@ const Footer = () => {
         <div className={classes.footer__wrap}>
           <div className={classes.info}>
             <Typography variant="h6" className={classes.subTitle}>
-
               العنوان : شارع طه الطاوي ,المحلة الكبري , الغربية , مصر
             </Typography>
 
@@ -34,8 +33,10 @@ const Footer = () => {
             </Typography>
 
             <Typography variant="h6" className={classes.subTitle}>
-              <p className="addes"> مواعيد العمل من 7 صباحآ الي 10 مساء علي طوال الاسبوع</p>
-              
+              <p className="addes">
+                {" "}
+                مواعيد العمل من 7 صباحآ الي 10 مساء علي طوال الاسبوع
+              </p>
             </Typography>
             <ul className={classes.nav__menu}>
               <li className={classes.nav__item}>

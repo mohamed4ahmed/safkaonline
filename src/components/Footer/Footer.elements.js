@@ -25,7 +25,7 @@ export const useStyles = makeStyles((theme) => ({
   },
 
   info: {
-    background: "rgba(136, 174, 223)", //edit here
+    background: "rgb(223, 216, 216)", //edit here
   },
 
   subTitle: {
@@ -41,7 +41,7 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   addes: {
-    color: "rgba(247, 248,248 ,0.8 )",
+    color: "rgba(79, 164, 221, 0.9 )",
   },
   nav__link: {
     // height: "100%",
@@ -62,6 +62,43 @@ export const useStyles = makeStyles((theme) => ({
       "&:hover": {
         color: "#4b59f7",
         transition: "all 0.3s ease",
+      },
+    },
+  },
+
+  nav__menu: {
+    display: "flex",
+    alignItems: "center",
+    textAlign: "center",
+    zIndex: 999,
+
+    [theme.breakpoints.down("md")]: {
+      // width: "100%",
+      // height: "calc(100vh - 80px)",
+      background: "#191919",
+      display: "flex",
+      flexDirection: "column",
+
+      position: "absolute",
+      // top: "80px",
+
+      opacity: 1,
+
+      transition: "all 0.5s ease",
+    },
+  },
+
+  nav__item: {
+    // height: "80px",
+    borderBottom: "5px solid transparent",
+
+    "&:hover": {
+      borderBottom: "5px solid #4b59f7",
+    },
+    [theme.breakpoints.down("md")]: {
+      // width: "100%",
+      "&:hover": {
+        border: "none",
       },
     },
   },
