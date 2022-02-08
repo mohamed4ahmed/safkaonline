@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0b4873d8.css",
-    "main.js": "/static/js/main.572feccc.js",
+    "main.js": "/static/js/main.aee9cd86.js",
     "static/js/757.8e5ec142.chunk.js": "/static/js/757.8e5ec142.chunk.js",
     "static/js/666.ceb3bc29.chunk.js": "/static/js/666.ceb3bc29.chunk.js",
     "static/js/525.c7a89ab5.chunk.js": "/static/js/525.c7a89ab5.chunk.js",
@@ -16,16 +16,16 @@
     "static/js/552.cfd5a944.chunk.js": "/static/js/552.cfd5a944.chunk.js",
     "static/js/105.6b26ce68.chunk.js": "/static/js/105.6b26ce68.chunk.js",
     "static/js/457.9a7c2dd6.chunk.js": "/static/js/457.9a7c2dd6.chunk.js",
+    "static/media/logo-web-white.png": "/static/media/logo-web-white.5fc946ebe94818fa9b64.png",
+    "static/media/logoMain.png": "/static/media/logoMain.5fc946ebe94818fa9b64.png",
     "static/media/bg_blog_home.webp": "/static/media/bg_blog_home.9c9e01c84495c0766e86.webp",
-    "static/media/logo-web-white.png": "/static/media/logo-web-white.534fe482fec6857cb4e2.png",
-    "static/media/logoMain.png": "/static/media/logoMain.5be2d2609021576a4638.png",
     "static/media/logo-web-black.png": "/static/media/logo-web-black.0bf7470954b6d4f99387.png",
     "static/media/feedback.svg": "/static/media/feedback.836bb8f8b0d88dfde1099f213fafa445.svg",
     "static/media/membership.svg": "/static/media/membership.a6eb4755612c1bd00c452093c49afaf1.svg",
     "index.html": "/index.html",
     "static/media/bg-white.webp": "/static/media/bg-white.16d22fa6e59303e5de3d.webp",
     "main.0b4873d8.css.map": "/static/css/main.0b4873d8.css.map",
-    "main.572feccc.js.map": "/static/js/main.572feccc.js.map",
+    "main.aee9cd86.js.map": "/static/js/main.aee9cd86.js.map",
     "757.8e5ec142.chunk.js.map": "/static/js/757.8e5ec142.chunk.js.map",
     "666.ceb3bc29.chunk.js.map": "/static/js/666.ceb3bc29.chunk.js.map",
     "525.c7a89ab5.chunk.js.map": "/static/js/525.c7a89ab5.chunk.js.map",
@@ -43,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.0b4873d8.css",
-    "static/js/main.572feccc.js"
+    "static/js/main.aee9cd86.js"
   ]
 }
