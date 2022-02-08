@@ -1,9 +1,10 @@
-import { Container } from "@material-ui/core";
+import { Container, Typography } from "@material-ui/core";
 import React from "react";
 import { useStyles } from "./Footer.elements";
 import logoImg from "../../assets/img/logo-web-white.png";
 import { NavLink } from "react-router-dom";
-import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaWhatsapp, FaPhone } from "react-icons/fa";
+import { GrMail } from "react-icons/gr";
 
 const Footer = () => {
   const classes = useStyles();
@@ -12,6 +13,29 @@ const Footer = () => {
     <div className={classes.footer}>
       <Container maxWidth="lg">
         <div className={classes.footer__wrap}>
+          <div className={classes.info}>
+            <Typography variant="h6" className={classes.subTitle}>
+              العنوان : شارع طه الطاوي ,المحلة الكبري , الغربية , مصر
+            </Typography>
+
+            <Typography variant="h6" className={classes.subTitle}>
+              لهاتف:{" "}
+              <a href="tel:+201095416155">
+                <FaPhone /> +201095416155
+              </a>
+            </Typography>
+
+            <Typography variant="h6" className={classes.subTitle}>
+              البريد :{" "}
+              <a href="mailto:Safka.online.2022@gmail.com">
+                <GrMail /> Safka.online.2022@gmail.com
+              </a>
+            </Typography>
+
+            <Typography variant="h6" className={classes.subTitle}>
+              مواعيد العمل من 7 صباحآ الي 10 مساء علي طوال الاسبوع
+            </Typography>
+          </div>
           <NavLink to="/" className={classes.footer__logo}>
             <img
               src={logoImg}
@@ -26,7 +50,7 @@ const Footer = () => {
             <div className={classes.footer__centerText}>
               Made with ♥ by:{" "}
               <a
-                href="https://www.mohamed4ahmed.ml"
+                href="https://www.mohamedahmed.ml"
                 target="__blank"
                 aria-label="Facebook"
                 className={classes.footer__centerMo}

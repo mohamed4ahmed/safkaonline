@@ -2,8 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export const useStyles = makeStyles((theme) => ({
   footer: {
-    height: "calc(70vh - 50px)", //edit here cant trust
-    // height: "80%", //edit here cant trust
+    height: "calc(100vh - 80px)", //edit here cant trust
     background: "#191919",
     color: "#fff",
     fontSize: "19px",
@@ -14,7 +13,7 @@ export const useStyles = makeStyles((theme) => ({
     borderTop: "2px solid rgba(79, 164, 221, 0.8)",
   },
   footer__wrap: {
-    height: "55%", //edit here cant trust
+    height: "100%", //edit here cant trust
     margin: "5px auto",
     display: "flex",
     justifyContent: "space-between",
@@ -25,8 +24,26 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
 
+  info: {
+    background: "rgba(247, 248, 248, 0.8)",
+  },
+
+  subTitle: {
+    color: "white",
+    padding: "10px 0",
+    [theme.breakpoints.down("md")]: {
+      padding: "5px 0",
+    },
+    "& a": {
+      color: "rgba(79, 164, 221, 0.8)",
+      cursor: "pointer",
+    },
+  },
+
   footer__logo: {
     height: "50%",
+    width: "200px", //edit here cant trust
+
     color: "#fff",
     textDecoration: "none",
     fontSize: "20px",
@@ -40,6 +57,8 @@ export const useStyles = makeStyles((theme) => ({
 
   footer__logoImg: {
     height: "60px",
+    width: "200px", //edit here cant trust
+
     border: 0,
 
     padding: "10px",

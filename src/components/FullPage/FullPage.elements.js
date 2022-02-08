@@ -2,7 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export const useStyles = makeStyles((theme) => ({
   hero: {
-    height: "calc(100vh - 80px)",
+    height: "calc(70vh - 80px)", //  edit must be trust edit before height: "calc(100vh - 80px)
     position: "relative",
     overflow: "hidden",
     backgroundColor: "#cab9a9",
@@ -13,8 +13,8 @@ export const useStyles = makeStyles((theme) => ({
   },
 
   heroWrapper: {
-    width: "70%",
-    height: "70%",
+    width: "100%",
+    height: "100%",
 
     display: "flex",
     justifyContent: "center",
@@ -26,7 +26,7 @@ export const useStyles = makeStyles((theme) => ({
 
   heroSlide: {
     zIndex: "9",
-    width: "100%",   //edit must be must because karim want hero not 100%
+    width: "100%", //edit must be must because karim want hero not 100%
     height: "100%",
 
     transition: "all 1 ease-in-out",

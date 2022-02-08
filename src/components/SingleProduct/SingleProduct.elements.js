@@ -143,12 +143,13 @@ export const useStyles = makeStyles((theme) => ({
       color: "rgba(79, 164, 221, 0.8)",
       cursor: "pointer",
     },
-  }, 
-   whatsappicon :{
-    marginLeft: "20px",
-    marginRight: "20px",
+  },
+  whatsappicon: {
+    marginLeft: "15px",
+    marginRight: "10px",
 
-   },
+    width: "8px", //edit
+  },
   listProduct: {
     display: "flex",
     flexWrap: "wrap",
