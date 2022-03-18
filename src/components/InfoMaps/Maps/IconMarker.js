@@ -3,8 +3,8 @@ import iconUrl from "../../../assets/img/logo-web-white.png";
 
 const iconSafka = new L.Icon({
   iconUrl: iconUrl,
-  iconSize: [68, 68],
-  iconAnchor: [68, 68],
+  iconSize: [71, 71],
+  iconAnchor: [71, 71],
   shadowUrl: null,
   shadowSize: null,
   shadowAnchor: null,
