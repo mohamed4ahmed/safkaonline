@@ -16,32 +16,32 @@ const Footer = () => {
         <div className={classes.footer__wrap}>
           <div className={classes.info}>
             <Typography variant="h6" className={classes.subTitle}>
-              العنوان :
+              Location :{" "}
               <a
-                href="https://www.google.com/maps/place/safka/@31.0914078,30.0063286,9z/data=!4m9!1m2!2m1!1ssafka!3m5!1s0x14f7a3837569d0af:0x5ea168e21e0b6dab!8m2!3d30.9738629!4d31.1822901!15sCgVzYWZrYZIBDmNsb3RoaW5nX3N0b3Jl"
+                href="https://www.google.com/maps/place/%D8%B5%D9%81%D9%82%D9%87%E2%80%AD/@31.0913359,30.0063166,9z/data=!4m9!1m2!2m1!1z2LXZgdmC2Yc!3m5!1s0x14f7a5f2c8e29cd1:0x9fabded9faa9e683!8m2!3d30.9662083!4d31.161194!15sCgjYtdmB2YLZh5IBDmNsb3RoaW5nX3N0b3Jl"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <SiGooglemaps /> Location in Google maps
+                <SiGooglemaps /> Get Directions
               </a>
             </Typography>
 
             <Typography variant="h6" className={classes.subTitle}>
-              لهاتف:{" "}
+              Phone :{" "}
               <a href="tel:+201095416155">
                 <FaPhone /> +201095416155
               </a>
             </Typography>
 
             <Typography variant="h6" className={classes.subTitle}>
-              البريد :{" "}
+              Email :{" "}
               <a href="mailto:Safka.online.2022@gmail.com">
                 <GrMail /> Safka.online.2022@gmail.com
               </a>
             </Typography>
 
             <Typography variant="h6" className={classes.subTitle}>
-              مواعيد العمل : من 7 صباحآ الي 10 مساء علي طوال الاسبوع
+              مواعيد العمل : من 10 صباحآ الي 10 مساء طوال الاسبوع
             </Typography>
 
             <ul className={classes.nav__menu}>
@@ -51,7 +51,7 @@ const Footer = () => {
                   className={classes.nav__link}
                   activeClassName={classes.activeClass}
                 >
-                  المنتجات
+                  مـنـتـجـاتـنا
                 </NavLink>
               </li>
 
@@ -61,7 +61,7 @@ const Footer = () => {
                   className={classes.nav__link}
                   activeClassName={classes.activeClass}
                 >
-                  أخبار
+                  أحـدث الأخـبـار
                 </NavLink>
               </li>
 
@@ -71,7 +71,7 @@ const Footer = () => {
                   className={classes.nav__link}
                   activeClassName={classes.activeClass}
                 >
-                  أعضاء
+                  تـسـجـيـل عـضـويه
                 </NavLink>
               </li>
             </ul>

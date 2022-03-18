@@ -25,7 +25,7 @@ export const useStyles = makeStyles((theme) => ({
   },
 
   info: {
-    background: "#7e7a7a", //edit here
+    background: "#191919", //edit here
   },
 
   subTitle: {
@@ -41,14 +41,14 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   addes: {
-    color: "rgba(79, 164, 221, 0.9 )",
+    color: "rgba(79, 164, 221, 0.9)",
   },
   nav__link: {
     // height: "100%",
     textDecoration: "none",
     textTransform: "uppercase",
 
-    color: "#1f263a",
+    color: "rgba(79, 164, 221, 0.5)",
     padding: "3px 5px",
 
     display: "flex",

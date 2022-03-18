@@ -11,8 +11,8 @@ import "leaflet/dist/leaflet.css";
 import { iconSafka } from "./IconMarker";
 import logoImg from "../../../assets/img/logo-web-black.png";
 const Map = () => {
-  const position = [30.974042, 31.182244];
-  const zoom = 18;
+  const position = [31.0913359, 30.0063166];
+  const zoom = 14;
   return (
     <div className="map">
       <LeafletMap center={position} zoom={zoom}>
@@ -28,7 +28,7 @@ const Map = () => {
               </div>
               <div className="info__name">صــفـقـة للملابس الجاهزة</div>
               <div className="info__address">
-                Address: 2st Taha el-Sawy, Elmahala-Elkoubra, Gharbia, Egypt
+                Address: Abd Roba ST, Elmahala-Elkoubra, Gharbia, Egypt
               </div>
             </div>
           </Popup>

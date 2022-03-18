@@ -55,18 +55,20 @@ const SingleProduct = ({ product, special }) => {
                     <p className={classes.phone}>
                       {" "}
                       Call for delivery:{" "}
-                      <a href="tel:+201093635346">01093635346</a>
+                      <a href="tel:+201095416155">01095416155</a>
                     </p>
                     <p className={classes.phone}>
                       {" "}
                       Order By WhatsApp:{" "}
-                      <a href="whatsapp://send?text=order-from-website&phone=+201095416155" 
-                      className={classes.whatsappicon} 
+                      <a
+                        href="whatsapp://send?text=order-from-website&phone=+201095416155"
+                        className={classes.whatsappicon}
                       >
                         <FaWhatsapp />
                       </a>
-                      <a href="whatsapp://send?text=order-from-website&phone=+201061061028" 
-                      className={classes.whatsappicon}
+                      <a
+                        href="whatsapp://send?text=order-from-website&phone=+201061061028"
+                        className={classes.whatsappicon}
                       >
                         <FaWhatsapp />
                       </a>
