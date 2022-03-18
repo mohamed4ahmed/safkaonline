@@ -20,7 +20,7 @@ const InfoMaps = () => {
               </Typography>
               <div>
                 <Typography variant="h6" className={classes.subTitle}>
-                  Address:  Abd Roba ST, Elmahala-Elkoubra, Gharbia, Egypt
+                  Address: Abd Roba ST, Elmahala-Elkoubra, Gharbia, Egypt
                 </Typography>
 
                 <Typography variant="h6" className={classes.subTitle}>
@@ -57,7 +57,7 @@ const InfoMaps = () => {
                 </Typography>
               </div>
               <a
-                href="https://www.google.com/maps/place/%D8%B5%D9%81%D9%82%D9%87%E2%80%AD/@31.0913359,30.0063166,9z/data=!4m9!1m2!2m1!1z2LXZgdmC2Yc!3m5!1s0x14f7a5f2c8e29cd1:0x9fabded9faa9e683!8m2!3d30.9662083!4d31.161194!15sCgjYtdmB2YLZh5IBDmNsb3RoaW5nX3N0b3Jl"
+                href="https://www.google.com/maps/place/%D8%B5%D9%81%D9%82%D9%87%E2%80%AD/@30.943632,30.6421503,10z/data=!4m9!1m2!2m1!1z2LXZgdmC2Yc!3m5!1s0x14f7a5f2c8e29cd1:0x9fabded9faa9e683!8m2!3d30.9662083!4d31.161194!15sCgjYtdmB2YLZh5IBDmNsb3RoaW5nX3N0b3Jl"
                 target="_blank"
                 rel="noopener noreferrer"
               >

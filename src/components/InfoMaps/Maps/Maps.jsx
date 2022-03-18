@@ -11,7 +11,7 @@ import "leaflet/dist/leaflet.css";
 import { iconSafka } from "./IconMarker";
 import logoImg from "../../../assets/img/logo-web-black.png";
 const Map = () => {
-  const position = [31.0913359, 30.0063166];
+  const position = [30.943632, 30.6421503];
   const zoom = 14;
   return (
     <div className="map">
