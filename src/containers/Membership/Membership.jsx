@@ -5,8 +5,6 @@ import {
   Container,
   Typography,
   TextField,
-  Select,
-  MenuItem,
   Button,
   Modal,
 } from "@material-ui/core";
@@ -27,7 +25,7 @@ const Membership = () => {
   const [spinner, setSpinner] = useState(true);
   const [name, setName] = useState("");
   const [dob, setDob] = useState("");
-  const [gender, setGender] = useState("");
+  // const [location, setLocation] = useState("");
   const [email, setEmail] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   // eslint-disable-next-line
@@ -42,10 +40,10 @@ const Membership = () => {
   }, []);
 
   useEffect(() => {
-    if ((name !== "") & (dob !== "") & (gender !== "") & (phoneNumber !== "")) {
+    if ((name !== "") & (dob !== "") & (phoneNumber !== "")) {
       setDisabledButton(false);
     }
-  }, [name, dob, gender, phoneNumber, disabledButton]);
+  }, [name, dob, phoneNumber, disabledButton]);
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -58,12 +56,10 @@ const Membership = () => {
       .collection("members")
       .add({
         id: getUUID(),
-        dateCreate: new Date(),
         phoneNumber: phoneNumber,
         name: name,
         emailAddress: email,
         dob: dob,
-        gender: gender,
       })
       .then()
       .catch(function (error) {
@@ -76,7 +72,6 @@ const Membership = () => {
     setDisabledButton(true);
     setName("");
     setDob("");
-    setGender("");
     setPhoneNumber("");
     setEmail("");
   };
@@ -94,7 +89,6 @@ const Membership = () => {
               setDisabledButton(true);
               setName("");
               setDob("");
-              setGender("");
               setPhoneNumber("");
               setEmail("");
             }}
@@ -113,7 +107,7 @@ const Membership = () => {
                 صــفـقـة
               </Typography>
               <p className={classes.description}>
-                تم تسجيل العضو بنجاح. شكرا لك
+                تم تسجيل طلبك بنجاح. سوف يتم التواصل معك في اقرب وقت .شكرا لك
               </p>
               <div className={classes.buttonGroup}>
                 <Link to="/">
@@ -136,14 +130,13 @@ const Membership = () => {
               <div className={classes.column}>
                 <div className={classes.textWrapper}>
                   <Typography variant="h4" className={classes.headerText}>
-                    اشتراك
+                    طلبك
                   </Typography>
                   <p className={classes.description}>
-                    يرجى مشاركة المعلومات مع صــفـقـة ، كثير جذابة العروض في
-                    انتظارك.
+                    يرجى مشاركة المعلومات مع صــفـقـة ، للحصول علي خصم 30%.
                   </p>
                   <p id="category" className={classes.label}>
-                    : الاسم الأول والاسم الأخير (*)
+                    : الاسم (*)
                   </p>
                   <TextField
                     id="outlined-basic1"
@@ -152,7 +145,7 @@ const Membership = () => {
                     onChange={(event) => setName(event.target.value)}
                   />
                   <p id="category" className={classes.label}>
-                    : تاريخ الميلاد (*)
+                    : تاريخ استلام طلبك (*)
                   </p>
                   <TextField
                     id="outlined-basic2"
@@ -161,20 +154,7 @@ const Membership = () => {
                     type="date"
                     onChange={(event) => setDob(event.target.value)}
                   />
-                  <p id="category" className={classes.label}>
-                    : النوع (*)
-                  </p>
-                  <Select
-                    labelId="demo-simple-select-helper-label"
-                    id="demo-simple-select-helper3"
-                    value={gender}
-                    onChange={(event) => setGender(event.target.value)}
-                    className={classes.selectCategory}
-                    variant="outlined"
-                  >
-                    <MenuItem value="male">male</MenuItem>
-                    <MenuItem value="Female">Female</MenuItem>
-                  </Select>
+
                   <p id="category" className={classes.label}>
                     : بريد الالكتروني (*)
                   </p>
@@ -200,7 +180,7 @@ const Membership = () => {
                     onClick={handleSubmit}
                     disabled={disabledButton ? true : false}
                   >
-                    يسجل
+                    تأكيد الطلب
                   </Button>
                   {error && (
                     <p className={`${classes.label} ${classes.error}`}>

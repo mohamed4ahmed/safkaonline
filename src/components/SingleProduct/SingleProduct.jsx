@@ -44,7 +44,7 @@ const SingleProduct = ({ product, special }) => {
                       {product.title}
                     </Typography>
                     <p className={classes.price}>{product.price}.LE</p>
-                    <Link to="/stores/">
+                    <Link to="/membership/">
                       <Button
                         variant="contained"
                         className={`${classes.button}`}
@@ -77,9 +77,9 @@ const SingleProduct = ({ product, special }) => {
                       {" "}
                       Order By Messenger:{" "}
                       <a
-                        href="https://m.facebook.com/messages/t/110829101400998"
+                        href="https://www.messenger.com/t/110829101400998/?messaging_source%3Apages%message_shortlink"
                         className={classes.whatsappicon}
-                        target="_blank"
+                        target="__blank"
                         aria-label="Facebook"
                         rel="noreferrer"
                       >

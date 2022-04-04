@@ -48,7 +48,7 @@ export const useStyles = makeStyles((theme) => ({
     textDecoration: "none",
     textTransform: "uppercase",
 
-    color: "rgba(79, 164, 221, 0.5)",
+    color: "rgba(79, 164, 221, 0.8)",
     padding: "3px 5px",
 
     display: "flex",

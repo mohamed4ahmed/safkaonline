@@ -47,8 +47,8 @@ const InfoMaps = () => {
                 <Typography variant="h6" className={classes.subTitle}>
                   Messenger:{" "}
                   <a
-                    href="https://m.facebook.com/messages/t/110829101400998"
-                    target="_blank"
+                    href="https://www.messenger.com/t/110829101400998/?messaging_source%3Apages%message_shortlink"
+                    target="__blank"
                     aria-label="Facebook"
                     rel="noreferrer"
                   >
