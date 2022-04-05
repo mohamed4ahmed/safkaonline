@@ -80,7 +80,7 @@ const SingleProduct = ({ product, special }) => {
                         href="https://www.messenger.com/t/110829101400998/?messaging_source%3Apages%message_shortlink"
                         className={classes.whatsappicon}
                         target="__blank"
-                        aria-label="Facebook"
+                        aria-label="Messenger"
                         rel="noreferrer"
                       >
                         <FaFacebookMessenger />

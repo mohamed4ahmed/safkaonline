@@ -49,7 +49,7 @@ const InfoMaps = () => {
                   <a
                     href="https://www.messenger.com/t/110829101400998/?messaging_source%3Apages%message_shortlink"
                     target="__blank"
-                    aria-label="Facebook"
+                    aria-label="Messenger"
                     rel="noreferrer"
                   >
                     <FaFacebookMessenger /> Messenger{" "}
